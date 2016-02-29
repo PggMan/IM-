@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64116B001C58C06D0073228E /* HXTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64116AFE1C58C06D0073228E /* HXTextMessageCell.m */; };
+		64116B011C58C06D0073228E /* HXTextMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64116AFF1C58C06D0073228E /* HXTextMessageCell.xib */; };
+		64116B051C58C0980073228E /* HXIconMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64116B031C58C0980073228E /* HXIconMessageCell.m */; };
+		64116B061C58C0980073228E /* HXIconMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64116B041C58C0980073228E /* HXIconMessageCell.xib */; };
+		64116B091C58CECB0073228E /* NSDictionary+PGDic.m in Sources */ = {isa = PBXBuildFile; fileRef = 64116B081C58CECB0073228E /* NSDictionary+PGDic.m */; };
+		64116B0D1C58DADE0073228E /* HXTextMessageCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 64116B0B1C58DADE0073228E /* HXTextMessageCell2.m */; };
+		64116B0E1C58DADE0073228E /* HXTextMessageCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64116B0C1C58DADE0073228E /* HXTextMessageCell2.xib */; };
+		644EF9921C587574007A64EE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644EF9911C587574007A64EE /* MobileCoreServices.framework */; };
+		644EF9941C587580007A64EE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 644EF9931C587580007A64EE /* CFNetwork.framework */; };
 		6466396E1C586D9E00FA55F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6466396D1C586D9E00FA55F0 /* main.m */; };
 		646639711C586D9E00FA55F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 646639701C586D9E00FA55F0 /* AppDelegate.m */; };
 		646639741C586D9E00FA55F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 646639731C586D9E00FA55F0 /* ViewController.m */; };
@@ -15,6 +24,11 @@
 		6466397C1C586D9E00FA55F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6466397A1C586D9E00FA55F0 /* LaunchScreen.storyboard */; };
 		646639871C586D9E00FA55F0 /* HuanXinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 646639861C586D9E00FA55F0 /* HuanXinDemoTests.m */; };
 		646639921C586D9E00FA55F0 /* HuanXinDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 646639911C586D9E00FA55F0 /* HuanXinDemoUITests.m */; };
+		6467FDCE1C7595A400F78A79 /* MyChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6467FDCC1C7595A400F78A79 /* MyChatViewController.m */; };
+		6467FDCF1C7595A400F78A79 /* MyChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6467FDCD1C7595A400F78A79 /* MyChatViewController.xib */; };
+		6467FDD21C75B8B800F78A79 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6467FDD11C75B8B800F78A79 /* MyTableView.m */; };
+		64DC9ACF1C5C5E7E0014FDD6 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DC9ACE1C5C5E7E0014FDD6 /* NavigationController.m */; };
+		DE7D2D087FDD2A0BDFE8903F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5780CABF77C9337A9917A2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36A5E8A8114E9FC031FAA621 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		64116AFD1C58C06D0073228E /* HXTextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTextMessageCell.h; sourceTree = "<group>"; };
+		64116AFE1C58C06D0073228E /* HXTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTextMessageCell.m; sourceTree = "<group>"; };
+		64116AFF1C58C06D0073228E /* HXTextMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXTextMessageCell.xib; sourceTree = "<group>"; };
+		64116B021C58C0980073228E /* HXIconMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXIconMessageCell.h; sourceTree = "<group>"; };
+		64116B031C58C0980073228E /* HXIconMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXIconMessageCell.m; sourceTree = "<group>"; };
+		64116B041C58C0980073228E /* HXIconMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXIconMessageCell.xib; sourceTree = "<group>"; };
+		64116B071C58CECB0073228E /* NSDictionary+PGDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PGDic.h"; sourceTree = "<group>"; };
+		64116B081C58CECB0073228E /* NSDictionary+PGDic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PGDic.m"; sourceTree = "<group>"; };
+		64116B0A1C58DADE0073228E /* HXTextMessageCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTextMessageCell2.h; sourceTree = "<group>"; };
+		64116B0B1C58DADE0073228E /* HXTextMessageCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTextMessageCell2.m; sourceTree = "<group>"; };
+		64116B0C1C58DADE0073228E /* HXTextMessageCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXTextMessageCell2.xib; sourceTree = "<group>"; };
+		644EF9911C587574007A64EE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		644EF9931C587580007A64EE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		646639691C586D9E00FA55F0 /* HuanXinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuanXinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6466396D1C586D9E00FA55F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6466396F1C586D9E00FA55F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +79,15 @@
 		6466398D1C586D9E00FA55F0 /* HuanXinDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuanXinDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		646639911C586D9E00FA55F0 /* HuanXinDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuanXinDemoUITests.m; sourceTree = "<group>"; };
 		646639931C586D9E00FA55F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6467FDCB1C7595A400F78A79 /* MyChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyChatViewController.h; sourceTree = "<group>"; };
+		6467FDCC1C7595A400F78A79 /* MyChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyChatViewController.m; sourceTree = "<group>"; };
+		6467FDCD1C7595A400F78A79 /* MyChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyChatViewController.xib; sourceTree = "<group>"; };
+		6467FDD01C75B8B800F78A79 /* MyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
+		6467FDD11C75B8B800F78A79 /* MyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
+		64DC9ACD1C5C5E7E0014FDD6 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		64DC9ACE1C5C5E7E0014FDD6 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		7E5780CABF77C9337A9917A2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1F32B06F5D49EF164510ED /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644EF9941C587580007A64EE /* CFNetwork.framework in Frameworks */,
+				644EF9921C587574007A64EE /* MobileCoreServices.framework in Frameworks */,
+				DE7D2D087FDD2A0BDFE8903F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +118,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64116AFC1C58BFBD0073228E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				64116AFD1C58C06D0073228E /* HXTextMessageCell.h */,
+				64116AFE1C58C06D0073228E /* HXTextMessageCell.m */,
+				64116AFF1C58C06D0073228E /* HXTextMessageCell.xib */,
+				64116B021C58C0980073228E /* HXIconMessageCell.h */,
+				64116B031C58C0980073228E /* HXIconMessageCell.m */,
+				64116B041C58C0980073228E /* HXIconMessageCell.xib */,
+				64116B071C58CECB0073228E /* NSDictionary+PGDic.h */,
+				64116B081C58CECB0073228E /* NSDictionary+PGDic.m */,
+				64116B0A1C58DADE0073228E /* HXTextMessageCell2.h */,
+				64116B0B1C58DADE0073228E /* HXTextMessageCell2.m */,
+				64116B0C1C58DADE0073228E /* HXTextMessageCell2.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		646639601C586D9E00FA55F0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,8 @@
 				646639851C586D9E00FA55F0 /* HuanXinDemoTests */,
 				646639901C586D9E00FA55F0 /* HuanXinDemoUITests */,
 				6466396A1C586D9E00FA55F0 /* Products */,
+				9CDD6B25E0B12D4B96CAB791 /* Pods */,
+				B2884EA06A0385001349589B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +161,7 @@
 		6466396B1C586D9E00FA55F0 /* HuanXinDemo */ = {
 			isa = PBXGroup;
 			children = (
+				64116AFC1C58BFBD0073228E /* Cell */,
 				6466396F1C586D9E00FA55F0 /* AppDelegate.h */,
 				646639701C586D9E00FA55F0 /* AppDelegate.m */,
 				646639721C586D9E00FA55F0 /* ViewController.h */,
@@ -110,6 +171,11 @@
 				6466397A1C586D9E00FA55F0 /* LaunchScreen.storyboard */,
 				6466397D1C586D9E00FA55F0 /* Info.plist */,
 				6466396C1C586D9E00FA55F0 /* Supporting Files */,
+				6467FDCB1C7595A400F78A79 /* MyChatViewController.h */,
+				6467FDCC1C7595A400F78A79 /* MyChatViewController.m */,
+				6467FDCD1C7595A400F78A79 /* MyChatViewController.xib */,
+				6467FDD01C75B8B800F78A79 /* MyTableView.h */,
+				6467FDD11C75B8B800F78A79 /* MyTableView.m */,
 			);
 			path = HuanXinDemo;
 			sourceTree = "<group>";
@@ -117,6 +183,8 @@
 		6466396C1C586D9E00FA55F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64DC9ACD1C5C5E7E0014FDD6 /* NavigationController.h */,
+				64DC9ACE1C5C5E7E0014FDD6 /* NavigationController.m */,
 				6466396D1C586D9E00FA55F0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +208,25 @@
 			path = HuanXinDemoUITests;
 			sourceTree = "<group>";
 		};
+		9CDD6B25E0B12D4B96CAB791 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36A5E8A8114E9FC031FAA621 /* Pods.debug.xcconfig */,
+				AC1F32B06F5D49EF164510ED /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2884EA06A0385001349589B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				644EF9931C587580007A64EE /* CFNetwork.framework */,
+				644EF9911C587574007A64EE /* MobileCoreServices.framework */,
+				7E5780CABF77C9337A9917A2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 646639961C586D9E00FA55F0 /* Build configuration list for PBXNativeTarget "HuanXinDemo" */;
 			buildPhases = (
+				AB562C3CEF0D48F2B61D6969 /* Check Pods Manifest.lock */,
 				646639651C586D9E00FA55F0 /* Sources */,
 				646639661C586D9E00FA55F0 /* Frameworks */,
 				646639671C586D9E00FA55F0 /* Resources */,
+				C20A65F751BBDDC870C4D7B7 /* Embed Pods Frameworks */,
+				6ACAB5E5F627581F436294FA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +333,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64116B011C58C06D0073228E /* HXTextMessageCell.xib in Resources */,
+				6467FDCF1C7595A400F78A79 /* MyChatViewController.xib in Resources */,
 				6466397C1C586D9E00FA55F0 /* LaunchScreen.storyboard in Resources */,
 				646639791C586D9E00FA55F0 /* Assets.xcassets in Resources */,
+				64116B061C58C0980073228E /* HXIconMessageCell.xib in Resources */,
 				646639771C586D9E00FA55F0 /* Main.storyboard in Resources */,
+				64116B0E1C58DADE0073228E /* HXTextMessageCell2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +359,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6ACAB5E5F627581F436294FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB562C3CEF0D48F2B61D6969 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C20A65F751BBDDC870C4D7B7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		646639651C586D9E00FA55F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64116B051C58C0980073228E /* HXIconMessageCell.m in Sources */,
 				646639741C586D9E00FA55F0 /* ViewController.m in Sources */,
 				646639711C586D9E00FA55F0 /* AppDelegate.m in Sources */,
+				6467FDD21C75B8B800F78A79 /* MyTableView.m in Sources */,
+				64DC9ACF1C5C5E7E0014FDD6 /* NavigationController.m in Sources */,
+				64116B0D1C58DADE0073228E /* HXTextMessageCell2.m in Sources */,
+				6467FDCE1C7595A400F78A79 /* MyChatViewController.m in Sources */,
+				64116B091C58CECB0073228E /* NSDictionary+PGDic.m in Sources */,
 				6466396E1C586D9E00FA55F0 /* main.m in Sources */,
+				64116B001C58C06D0073228E /* HXTextMessageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +496,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -391,6 +541,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -411,10 +562,34 @@
 		};
 		646639971C586D9E00FA55F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A5E8A8114E9FC031FAA621 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HuanXinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"EaseMobClientSDK_arm64\"",
+					"-l\"EaseMobClientSDK_armv7\"",
+					"-l\"EaseMobClientSDK_armv7s\"",
+					"-l\"EaseMobClientSDK_i386\"",
+					"-l\"EaseMobClientSDK_x86_64\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"stdc++.6\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = haixianfglicai.HuanXinDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,10 +597,34 @@
 		};
 		646639981C586D9E00FA55F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1F32B06F5D49EF164510ED /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HuanXinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"EaseMobClientSDK_arm64\"",
+					"-l\"EaseMobClientSDK_armv7\"",
+					"-l\"EaseMobClientSDK_armv7s\"",
+					"-l\"EaseMobClientSDK_i386\"",
+					"-l\"EaseMobClientSDK_x86_64\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"stdc++\"",
+					"-l\"stdc++.6\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = haixianfglicai.HuanXinDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -498,6 +697,7 @@
 				646639981C586D9E00FA55F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		646639991C586D9E00FA55F0 /* Build configuration list for PBXNativeTarget "HuanXinDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +706,7 @@
 				6466399B1C586D9E00FA55F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6466399C1C586D9E00FA55F0 /* Build configuration list for PBXNativeTarget "HuanXinDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +715,7 @@
 				6466399E1C586D9E00FA55F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="375" id="KGk-i7-Jjw" customClass="HXIconMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="375"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="374"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="haixiang" translatesAutoresizingMaskIntoConstraints="NO" id="PpG-wG-QQ6">
+                        <rect key="frame" x="10" y="15" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="FfS-QE-Pfl"/>
+                            <constraint firstAttribute="height" constant="50" id="MTr-4a-BRR"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="haixiang" translatesAutoresizingMaskIntoConstraints="NO" id="xY1-0p-6bV">
+                        <rect key="frame" x="337" y="15" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="kRc-wh-nfX"/>
+                            <constraint firstAttribute="width" constant="50" id="vvu-xE-fMO"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cm2-wi-Sib">
+                        <rect key="frame" x="80" y="20" width="243" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="tbs-9M-IbU"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Cm2-wi-Sib" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="6Se-L7-hpk"/>
+                    <constraint firstItem="Cm2-wi-Sib" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="80" id="Nar-QC-grT"/>
+                    <constraint firstItem="xY1-0p-6bV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="ZX4-TN-OaT"/>
+                    <constraint firstItem="PpG-wG-QQ6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="inz-Hd-1Um"/>
+                    <constraint firstAttribute="trailing" secondItem="xY1-0p-6bV" secondAttribute="trailing" constant="10" id="jPg-3z-wDI"/>
+                    <constraint firstItem="PpG-wG-QQ6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="ox4-hO-DsZ"/>
+                    <constraint firstAttribute="trailing" secondItem="Cm2-wi-Sib" secondAttribute="trailing" constant="74" id="wuM-mb-Fjy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="344.5" y="520.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="haixiang" width="96" height="96"/>
+    </resources>
+</document>

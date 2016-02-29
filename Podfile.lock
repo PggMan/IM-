@@ -1,0 +1,13 @@
+PODS:
+  - EaseMobSDKFull (2.1.7)
+  - RongCloudIMLib (2.4.7)
+
+DEPENDENCIES:
+  - EaseMobSDKFull
+  - RongCloudIMLib
+
+SPEC CHECKSUMS:
+  EaseMobSDKFull: 43858ca9a62bbe1fa4c7c006f944a3e52a4bff48
+  RongCloudIMLib: 0b1874760de14aae22f773e1a94fe975ce144eb9
+
+COCOAPODS: 0.39.0
